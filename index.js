@@ -32,6 +32,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const speech = new SpeechSynthesisUtterance();
         speech.text = text;
         window.speechSynthesis.speak(speech);
+           // Configura opciones (opcional)
+         speech.volume = 1; // Volumen (0 a 1)
+        // speech.rate = 1; // Velocidad de habla (0.1 a 10)
+        // speech.pitch = 1; // Tono de voz (0 a 2)
     }
 
     function changeFontSize(factor) {
