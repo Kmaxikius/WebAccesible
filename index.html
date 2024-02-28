@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Accesible</title>
+</head>
+<body>
+    <main id="mainContent">
+        <header>
+            <h1>Accesibilidad</h1>
+        </header>
+
+        <section>
+            <h2>Introducción</h2>
+            <p id="introText">Bienvenido a nuestra página sobre accesibilidad. 
+            Independientemente de tus capacidades, podrás adaptarla.</p>
+        </section>
+
+        <section>
+            <h2>Principios de Accesibilidad</h2>
+            <p>Nuestra página se basa en los cuatro principios fundamentales de accesibilidad:</p>
+            <ol>
+                <li>Perceptible</li>
+                <li>Operable</li>
+                <li>Entendible</li>
+                <li>Robusto</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Lectura de Texto</h2>
+            <button id="readButton">Leer Texto</button>
+        </section>
+
+        <section>
+            <h2>Ajustar Tamaño de Letra</h2>
+            <button id="increaseFontSize">Aumentar Tamaño de Letra</button>
+            <button id="decreaseFontSize">Disminuir Tamaño de Letra</button>
+        </section>
+        <section>
+            <h2>Cambiar Colores</h2>
+            <label for="textColor">Color de Texto:</label>
+            <select id="textColor">
+                <option value="black">Negro</option>
+                <option value="red">Rojo</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="purple">Morado</option>
+                <option value="orange">Naranja</option>
+                <option value="brown">Marrón</option>
+                <option value="gray">Gris</option>
+                <option value="navy">Azul Marino</option>
+                <option value="pink">Rosa</option>
+            </select>
+        
+            <label for="backgroundColor">Color de Fondo:</label>
+            <select id="backgroundColor">
+                <option value="white">Blanco</option>
+                <option value="lightgray">Gris claro</option>
+                <option value="lightyellow">Amarillo claro</option>
+                <option value="lightgreen">Verde claro</option>
+                <option value="lavender">Lavanda</option>
+                <option value="lightcoral">Coral claro</option>
+                <option value="lightblue">Azul claro</option>
+                <option value="lightpink">Rosa claro</option>
+                <option value="lightgoldenrodyellow">Amarillo dorado claro</option>
+                <option value="lightcyan">Cian claro</option>
+            </select>
+        
+            <button id="applyColors">Aplicar Colores</button>
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Accesibilidad. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
